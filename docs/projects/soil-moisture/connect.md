@@ -38,10 +38,10 @@ The dashboard code can be found at [/examples/radio-dashboard](/examples/radio-d
 
 Download the code from that example into the @boardname@ that will be used to display the result.
 
-When the dashboard receives a message from a @boardname@, it find a pixel for that board (and remembers it)
+When the dashboard receives a message from a @boardname@, it finds a pixel for that board (and remembers it)
 and uses the number received as the brightness of the LED.
 
-When a message hasn't been received by a board for some time, it's pixel will start to blink. After more time, it will simply turn off. 
+When a message hasn't been received by a board for some time, its pixel will start to blink. After more time, it will simply turn off. 
 
 
 ```package
