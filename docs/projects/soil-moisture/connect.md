@@ -41,7 +41,7 @@ Download the code from that example into the @boardname@ that will be used to di
 
 When the dashboard receives a message from a @boardname@, it finds a pixel to use for that board (and remembers it). The number sent in the messages from the board are used to set the brightness of the LED.
 
-When a message hasn't been received by the dashboard for awhile, it's pixel will start to blink. Then, after some time, it will simply turn off.
+When a message hasn't been received by the dashboard for awhile, its pixel will start to blink. Then, after some time, it will simply turn off.
 
 ```package
 radio
